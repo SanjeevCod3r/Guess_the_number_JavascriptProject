@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark: #350363;
+    --background: #ffe9db;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: blue;
+}
+
+main{
+    width: 30vw;
+    text-align: center;
+    background-color: var(--background);
+    border: solid var(--dark);
+    border-width: 0.8rem;
+    border-radius: 1rem;
+    padding: 8rem 5rem;
+    color: #1f2933;
+}
+
+h2{
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+.image{
+    width: 90%;
+    max-height: 22rem;
+    height: auto;
+    margin: 1rem 0 4rem 0;
+
+}
